@@ -5,8 +5,11 @@ import './App.css';
 const App = () => (
     <React.Fragment>
       <div className="flex__container">
-          <div className="img__container">
-              <img src="/dist/img/top-right.jpg" />
+          {/* <div className="img__container"> */}
+              {/* <img src="/img/SmallerGoodPhoto.jpg" alt="It's us!" /> */}
+              {/* <img src="/img/top-right.jpg" alt="It's us!" /> */}
+          {/* </div> */}
+          <div className="save__date2">
           </div>
           <div className="save__date">
             <div className="save__date__text">

@@ -8,12 +8,23 @@ body {
 }
 
 .save__date {
-  width: 33.333333vw;
-  height: 90vh;
+  width: 50vw;
+  height: 100vh;
   overflow: hidden;
   position: relative;
   color: white;
   background-color: rgb(205,52,41);
+}
+
+.save__date2 {
+  width: 50vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  background-image: url(/img/top-right.jpg);
+  background-repeat: no-repeat;
+  /* background-color: rgb(232,222,42); */
 }
 
 .save__date__text {
@@ -41,8 +52,13 @@ img {
   /* max-height: 100%; */
   /* height: 90vh; */
   /* width: 100%; */
+  /* height: auto; */
+  /* width: 100%; */
+  display: block;
+  max-width: 66.666667vw;
+  max-height: 90vh;
+  width: auto;
   height: auto;
-  width: 100%;
 }
 
 @media only screen and (max-width: 575px) {
@@ -54,8 +70,13 @@ img {
       height: auto;
   }
 
-  .save__date, img__container {
-      height: 50vw;
+  .save__date2 {
+    background-image: url(/img/SmallerGoodPhoto.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .save__date, .save__date2, img__container {
+      height: 50vh;
       width: 100vw;
   }
 
